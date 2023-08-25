@@ -1,10 +1,9 @@
 <?php
 /*
-Plugin Name: PhastPress
-Description: PhastPress automatically optimizes your site for the best possible Google PageSpeed Insights score.
-Version: 2.18
-Author: Albert Peschar
-Author URI: https://kiboit.com
+Plugin Name: Express
+Description: Express automatically optimizes your site for the best possible Google PageSpeed Insights score.
+Version: 99.0
+Author: Francesco
 License: AGPLv3
 */
 
