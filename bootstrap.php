@@ -104,15 +104,15 @@ add_action('admin_print_scripts', function () {
     echo phastpress_get_plugin_sdk()->getAutoConfiguration()->renderScript();
 });
 
-add_action('admin_menu', function () {
-    add_options_page(
-        __('PhastPress', 'phastpress'),
-        __('PhastPress', 'phastpress'),
-        'manage_options',
-        'phast-press',
-        'phastpress_render_settings'
-    );
-});
+// add_action('admin_menu', function () {
+//     add_options_page(
+//         __('PhastPress', 'phastpress'),
+//         __('PhastPress', 'phastpress'),
+//         'manage_options',
+//         'phast-press',
+//         'phastpress_render_settings'
+//     );
+// });
 
 add_action('wp_head', function () {
     $style = 'font-family:helvetica,sans-serif';
